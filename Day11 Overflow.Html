@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            div.scroll{
+                background-color: bisque;
+                width: 80px;
+                height: 80px;
+                overflow: scroll;
+            }
+            div.hidden{
+                background-color: yellow;
+                width: 80px;
+                height: 80px;
+                overflow: hidden;
+            }
+            div.scrollxy{
+                background-color: yellow;
+                width: 80px;
+                height: 40px;
+                overflow-x: auto;
+                overflow-y: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <p>If the content of an element exceeds the size of the element box then there comes overflow </p>
+        <div class="scroll" >
+            Overflow default value is visible, when you want better control of layout use 
+        </div>
+        <div class="hidden" >
+            Overflow default value is visible, when you want better control of layout use 
+        </div>
+        <div class="scrollxy" >
+            Overflow default value is visible, when you want better control of layout use 
+        </div>
+    </body>
+</html>
