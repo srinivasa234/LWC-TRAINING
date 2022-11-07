@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            p.position_fixed{
+                position: fixed;
+                right: 100px;
+                top: 50px;
+                color: sandybrown;
+            }
+            p.position_relative{
+                position: relative;
+                left: 100px;
+                top: 50px;
+                color: blue;
+            }
+            p.position_absolute{
+                position: absolute;
+                right: 100px;
+                top: 50px;
+                color: yellow   ;
+            }
+            p.position_sticky{
+                position: sticky;
+                right: 100px;
+                top: 50px;
+                color: yellow   ;
+            }
+        </style>
+    </head>
+    <body>
+        <P> hi </P>
+        <P> hello </P>
+        <P class="position_fixed"> This is fixed position text from right:100 px from top : 50 Px</P>
+        <P class="position_relative"> This is fixed position text from right:100 px from top : 50 Px</P>
+        <P class="position_absolute"> This is fixed position text from right:100 px from top : 50 Px</P>
+        <P class="position_sticky"> This is fixed position text from right:100 px from top : 50 Px</P>
+        
+        <P> end </P>
+        <P> footer </P>
+    </body>
+</html>
