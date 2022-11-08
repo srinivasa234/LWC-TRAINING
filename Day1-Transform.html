@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            div{
+                width: 100%;
+                height: 100px;
+                background-color: aquamarine;
+                border: 2px dashed black;
+            }
+            #rotateDiv{
+                transform: rotateX(160deg);
+                -ms-transform: rotateX(160deg);
+                -webkit-transform: rotateX(160deg);
+            }
+            #rotateX{
+                transform: rotateX(160deg);
+                -ms-transform: rotateX(160deg);
+                -webkit-transform: rotateX(160deg);
+            }
+            #rotateY{
+                transform: rotateY(160deg);
+                -ms-transform: rotateY(160deg);
+                -webkit-transform: rotateY(160deg);
+            }
+            #rotateZ{
+                transform: rotateZ(160deg);
+                transform: rotate3d(1, 1, 1, 45deg);
+                -ms-transform: rotateZ(160deg);
+                -webkit-transform: rotateZ(160deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            Ordinary Div
+        </div>
+        <div id="rotateDiv">
+            Rotate methods rotates the element
+        </div>
+        Rotate X
+        <div id="rotateX">
+            Rotate methods rotates the element
+        </div>
+        Rotate Y
+        <div id="rotateY">
+            Rotate methods rotates the element
+        </div>
+        Rotate Z
+        <div id="rotateZ">
+            Rotate methods rotates the element
+        </div>
+    </body>
+</html>
