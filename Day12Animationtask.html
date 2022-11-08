@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style> 
+            div.others{
+                height: 200px;
+                width: 200px;
+                background-color: yellow;
+                animation-name: demoone;
+                animation-duration: 5s;
+                animation-direction: alternate;
+                animation-iteration-count: 2;
+                animation-fill-mode: forwards;
+                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+                animation-delay: 2s;
+            }
+            @keyframes demoone{
+            0% {background-color: red ;}
+            25%{background-color: green;}
+            50%{background-color: aqua;}
+            100%{background-color: chocolate;}
+            }       
+        </style>
+    </head>
+    <body>
+        <p> some browser of early version may not support animation </p>
+        <div class="others"></div>
+    </body>
+</html>
